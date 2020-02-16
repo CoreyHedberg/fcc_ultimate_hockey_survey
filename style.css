@@ -1,0 +1,87 @@
+/*
+  This website was written by Corey Hedberg for the purposes of the Free Code Camp Responsive Web Design Certification "Build a Survey Form" challenge.
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+body {
+  font-family: "Roboto Mono", Arial;
+  background-color: #00205b;
+}
+
+#title {
+  color: #ffffff;
+  text-align: center;
+}
+
+#description {
+  color: #ffffff;
+  text-align: center;
+}
+
+.sectionHeader {
+  text-align: center;
+}
+
+.sectionOneFooter {
+  text-align: center;
+}
+
+#sectionOne,
+#sectionTwo,
+#sectionThree,
+#sectionFour {
+  background-color: #ffffff;
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+  padding-top: 0.1em;
+  padding-bottom: 0.8em;
+  margin-bottom: 2em;
+}
+
+.sectionOneGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1%;
+  grid-template-rows: repeat(5, auto);
+  grid-row-gap: 1em;
+}
+
+.sectionTwoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1%;
+  grid-template-rows: repeat(5, auto);
+  grid-row-gap: 1em;
+}
+
+.sectionThreeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1%;
+}
+
+.gridLeft {
+  justify-self: end;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 95%;
+}
+
+.gridRight {
+  justify-self: start;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 95%;
+}
+
+.submitButton {
+  border: none;
+  border-radius: 0.4em;
+  padding: 0.8em 1em 0.8em 1em;
+  background-color: #283041;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+}

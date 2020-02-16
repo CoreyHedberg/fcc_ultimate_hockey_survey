@@ -1,0 +1,253 @@
+<!--
+    This website was written by Corey Hedberg for the purposes of the Free Code Camp Responsive Web Design Certification "Build a Survey Form" challenge.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../survey_form/css.css"
+      media="all"
+    />
+
+    <script src="../survey_form/survey_form.js"></script>
+
+    <link
+      rel="icon"
+      href="../survey_form/sticks-300x242.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="../survey_form/sticks-300x242.png"
+      type="shortcut icon"
+    />
+
+    <title>The Ultimate Hockey Survey</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">The Ultimate Hockey Survey</h1>
+
+      <p id="description">
+        The following information and survey will help us get a better
+        understanding of hockey fans.
+      </p>
+    </header>
+
+    <main>
+      <!-- Section 1: Basic information -->
+      <form id="survey-form" action="#">
+        <section id="sectionOne">
+          <h3 class="sectionHeader">Basic Information</h3>
+          <div class="sectionOneGrid">
+            <label for="name" id="name-label" class="gridLeft"
+              >What is your name</label
+            >
+            <div class="gridRight">
+              <input
+                id="name"
+                type="text"
+                placeholder="Enter your name"
+                size="28"
+                required
+              />
+            </div>
+            <label for="email" id="email-label" class="gridLeft"
+              >What is your e-mail address</label
+            >
+            <div class="gridRight">
+              <input
+                id="email"
+                type="email"
+                placeholder="Enter your e-mail address"
+                size="28"
+                required
+              />
+            </div>
+            <label for="number" id="number-label" class="gridLeft"
+              >What is your age</label
+            >
+            <div class="gridRight">
+              <input
+                id="number"
+                type="number"
+                placeholder="Enter your age"
+                min="10"
+                max="99"
+              />
+            </div>
+            <label for="dropdown" id="dropdown-label" class="gridLeft"
+              >Do you consider yourself a true hockey fan</label
+            >
+            <div class="gridRight">
+              <select id="dropdown">
+                <option value="do_fish_swim">Do fish swim</option>
+                <option value="yes">Yes</option>
+                <option value="somewhat">Somewhat</option>
+                <option value="not_really">Not really</option>
+                <option value="no">No</option>
+                <option value="do_fish_walk_on_land"
+                  >Do fish walk on land</option
+                >
+              </select>
+            </div>
+            <label for="dropdown" id="dropdown-team-label" class="gridLeft"
+              >If you answered either <i>Do fish swim</i> or <i>Yes</i>, what is
+              your favorite team</label
+            >
+            <div class="gridRight">
+              <select id="dropdown_favorite_team">
+                <option value="ana">Anaheim Ducks</option>
+                <option value="ari">Arizona Coyotes</option>
+                <option value="bos">Boston Bruins</option>
+                <option value="buf">Buffalo Sabres</option>
+                <option value="cal">Calgary Flames</option>
+                <option value="car">Carolina Hurricanes</option>
+                <option value="chi">Chicago Blackhawks</option>
+                <option value="col">Colorado Avalanche</option>
+                <option value="cbj">Columbus Blue Jackets</option>
+                <option value="dal">Dallas Stars</option>
+                <option value="det">Detroit Red Wings</option>
+                <option value="edm">Edmonton Oilers</option>
+                <option value="fla">Florida Panthers</option>
+                <option value="lak">Los Angeles Kings</option>
+                <option value="min">Minnesota Wild</option>
+                <option value="mon">Montreal Canadiens</option>
+                <option value="nas">Nashville Predators</option>
+                <option value="njd">New Jersey Devils</option>
+                <option value="nyi">New York Islanders</option>
+                <option value="nyr">New York Rangers</option>
+                <option value="ott">Ottawa Senators</option>
+                <option value="phi">Philadelphia Flyers</option>
+                <option value="pit">Pittsburgh Penguins</option>
+                <option value="sjs">San Jose Sharks</option>
+                <option value="stl">St Louis Blues</option>
+                <option value="tbl">Tampa Bay Lightning</option>
+                <option value="tor">Toronto Maple Leafs</option>
+                <option value="van">Vancouver Canucks</option>
+                <option value="vgk">Vegas Golden Knights</option>
+                <option value="was">Washington Capitals</option>
+                <option value="win">Winnipeg Jets</option>
+              </select>
+            </div>
+          </div>
+          <br />
+          <p class="sectionOneFooter">
+            If you answered <i>Not really</i>, <i>No</i>, or
+            <i>Do fish walk on land</i> then you can skip the rest of the survey
+            and submit your response below.
+          </p>
+        </section>
+        <!-- Section 2: Basic questions -->
+        <section id="sectionTwo">
+          <h3 class="sectionHeader">Basic Questions</h3>
+          <div class="sectionTwoGrid">
+            <label for="questionOne" class="gridLeft"
+              >Do you enjoy watching hockey on television</label
+            >
+            <div class="gridRight">
+              <input id="yes" type="radio" name="questionOne" value="yes" /> Yes
+              <input id="no" type="radio" name="questionOne" value="no" /> No
+            </div>
+            <label for="questionTwo" class="gridLeft"
+              >Do you enjoy watching hockey in person</label
+            >
+            <div class="gridRight">
+              <input id="yes" type="radio" name="questionTwo" value="yes" /> Yes
+              <input id="no" type="radio" name="questionTwo" value="no" /> No
+            </div>
+            <label for="questionThree" class="gridLeft"
+              >Have you ever attended a hockey game in person</label
+            >
+            <div class="gridRight">
+              <input id="yes" type="radio" name="questionThree" value="yes" />
+              Yes
+              <input id="no" type="radio" name="questionThree" value="no" /> No
+            </div>
+            <label for="lastGame" class="gridLeft"
+              >If yes, when was the last game you attended</label
+            >
+            <div class="gridRight">
+              <input type="date" id="lastGame" name="lastGame" />
+            </div>
+            <label for="favorite_position" class="gridLeft"
+              >What are your two favorite positions</label
+            >
+            <div class="gridRight">
+              <input type="checkbox" name="left_wing" value="left_wing" />Left
+              Wing
+              <br />
+              <input type="checkbox" name="center" value="center" />Center
+              <br />
+              <input
+                type="checkbox"
+                name="right_wing"
+                value="right_wing"
+              />Right Wing
+              <br />
+              <input
+                type="checkbox"
+                name="left_defenseman"
+                value="left_defenseman"
+              />Left Defenseman
+              <br />
+              <input
+                type="checkbox"
+                name="right_defenseman"
+                value="right_defenseman"
+              />Right Defenseman
+              <br />
+              <input type="checkbox" name="goalie" value="goalie" />Goalie
+            </div>
+            <label for="played_hockey" class="gridLeft"
+              >Have you ever played organized team hockey</label
+            >
+            <div class="gridRight">
+              <input id="yes" type="radio" name="questionFour" value="yes" />
+              Yes
+              <input id="no" type="radio" name="questionFour" value="no" /> No
+            </div>
+            <label for="ice_skate" class="gridLeft"
+              >Do you know how to ice skate</label
+            >
+            <div class="gridRight">
+              <input id="yes" type="radio" name="questionFive" value="yes" />
+              Yes
+              <input id="no" type="radio" name="questionFive" value="no" /> No
+            </div>
+          </div>
+        </section>
+        <section id="sectionThree">
+          <h3 class="sectionHeader">Additional Comments</h3>
+          <div class="sectionThreeGrid">
+            <p class="gridLeft">
+              Please provide any additional comments you may have
+            </p>
+            <textarea
+              name="comments"
+              cols="48"
+              rows="8"
+              placeholder="Enter comments here ..."
+              class="gridRight"
+            ></textarea>
+          </div>
+        </section>
+        <section id="sectionFour">
+          <h3 class="sectionHeader">Final Submitting</h3>
+          <button
+            type="submit"
+            id="submit"
+            class="submitButton"
+            onclick="submitSurvey()"
+          >
+            Submit survey responses
+          </button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
