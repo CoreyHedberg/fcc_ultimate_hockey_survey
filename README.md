@@ -1,2 +1,25 @@
-# ultimate_hockey_survey
-The following information and survey will help us get a better understanding of hockey fans.
+# The Ultimate Hockey Survey
+
+<br>
+
+Website to survery hockey fans.
+
+<br>
+
+Click [here](https://cheddrs.github.io/to_do_app/) to view it.
+
+<br>
+
+<image src="media/readme_screenshot.png">
+
+## Summary
+
+This the second project I have completed for the Software Development Mastermind program.
+
+## Languages Used
+
+<image src="media/html.png"> <image src="media/css.png"> <image src="media/js.png">
+
+## Author
+
+**Corey Hedberg** | _Software Developer_ | [LinkedIn](https://www.linkedin.com/in/coreyhedberg/)
