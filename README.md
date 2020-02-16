@@ -6,7 +6,7 @@ Website to survery hockey fans.
 
 <br>
 
-Click [here](https://cheddrs.github.io/to_do_app/) to view it.
+Click [here](https://cheddrs.github.io/ultimate_hockey_survey/) to view it.
 
 <br>
 
@@ -14,7 +14,9 @@ Click [here](https://cheddrs.github.io/to_do_app/) to view it.
 
 ## Summary
 
-This the second project I have completed for the Software Development Mastermind program.
+This website was written for the purposes of the Free Code Camp Responsive Web Design Certification "Build a Survey Form" challenge.
+
+I learned a lot more about CSS Grid and implemented it in this site.
 
 ## Languages Used
 
