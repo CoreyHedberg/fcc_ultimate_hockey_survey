@@ -20,7 +20,7 @@ I learned a lot more about CSS Grid and implemented it in this site.
 
 ## Languages Used
 
-<image src="media/html.png"> <image src="media/css.png"> <image src="media/js.png">
+<image src="media/html.svg" width="55">&nbsp; &nbsp; <image src="media/css.svg" width="55">
 
 ## Author
 
