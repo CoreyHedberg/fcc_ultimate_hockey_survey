@@ -2,7 +2,7 @@
 
 <br>
 
-Website to survery hockey fans.
+Website to survey hockey fans.
 
 <br>
 
