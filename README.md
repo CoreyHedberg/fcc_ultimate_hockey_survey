@@ -6,7 +6,7 @@ Website to survey hockey fans.
 
 <br>
 
-Click [here](https://cheddrs.github.io/ultimate_hockey_survey/) to view it.
+Click [here](https://coreyhedberg.github.io/ultimate_hockey_survey/) to view it.
 
 <br>
 
