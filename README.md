@@ -18,4 +18,5 @@ I learned a lot more about CSS Grid and implemented it in this site.
 
 ## Author
 
-**Corey Hedberg** &bull; _Software Developer_ &bull; [LinkedIn](https://www.linkedin.com/in/coreyhedberg/)
+**Corey Hedberg** | _Software Developer_ <br>
+[Website](https://coreyhedberg.dev) &bull; [LinkedIn](https://www.linkedin.com/in/coreyhedberg/)
