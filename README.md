@@ -12,7 +12,7 @@ Click [here](https://coreyhedberg.github.io/ultimate_hockey_survey/) to give you
 
 <image src="readme_files/readme_screenshot.png">
 
-This project was fun to complete because it really pushed forward my understanding of CSS Grid. Plus, I am indeed a huge hockey fan, so this project combined two of my great loves: coding and hockey. Go Ligtning!!
+This project was fun to complete because it really pushed forward my understanding of CSS Grid. Plus, I am indeed a huge hockey fan, so this project combined two of my great loves: coding and hockey. Go Lightning!!
 
 ## About Project
 
