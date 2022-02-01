@@ -16,7 +16,7 @@ This project was fun to complete because it really pushed forward my understandi
 
 ## About Project
 
-<image src="readme_files/free_code_camp_logo.png" width="38" alt="www.freecodecamp.org"><br>
+[<image src="readme_files/free_code_camp_logo.png" width="38" alt="www.freecodecamp.org">](https://www.freecodecamp.org) <br>
 This project was completed for the **Build A Survey Form** challenge of the Free Code Camp Responsive Web Design certification curriculum.<br>
 
 ## Author
