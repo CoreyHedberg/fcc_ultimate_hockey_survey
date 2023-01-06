@@ -21,5 +21,5 @@ This project was completed for the **Build A Survey Form** challenge of the Free
 
 ## Author
 
-**Corey Hedberg** | _Software Developer_ <br>
+**Corey Hedberg** | Software Developer <br>
 [Website](https://coreyhedberg.dev) &bull; [LinkedIn](https://www.linkedin.com/in/coreyhedberg/)
